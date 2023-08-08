@@ -1,0 +1,68 @@
+body{
+    background-color: bisque;
+    font-family: Helvetica;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+#face {
+    width: 200px;
+    height: 200px;
+    border: 7px solid rgb(4, 20, 91);
+    border-radius: 75px;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.info{
+    display: flex;
+}
+
+.left_column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.right_column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 365px;
+    margin-right: 200px;
+}
+
+button{
+    width: 450px;
+    height: 150px;
+    color: rebeccapurple;
+    font-size: 28px;
+    font-family: 'Brush Script MT';
+    background-color: rgba(85, 220, 250, 0.322);
+    border: 3px solid rgb(21, 182, 128);
+    border-radius: 55px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+button:hover{
+    opacity: 75%;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+}
+
+#new{
+    background-color: aliceblue;
+}
