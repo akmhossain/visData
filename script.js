@@ -28,7 +28,12 @@ let img = document.querySelector("img")
     age_button.addEventListener('click', age) 
 
 function change() {
+        num = Math.floor(Math.random()*10)
         name_.innerHTML = `${data.results[num].name.first} ${data.results[num].name.last}`
         img.src = `${data.results[num].picture.large}`; 
+        city_button.innerHTML = "Click here to see city"
+        email_button.innerHTML = "Click here to see email"
+        username_button.innerHTML = "Click here to see username"
+        age_button.innerHTML = "Click here to see age"
     }
 change_button.addEventListener('click', change)
